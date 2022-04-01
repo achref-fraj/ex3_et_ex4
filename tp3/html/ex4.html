@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>ex4</title>
+  </head>
+  <body>
+    <label>nom:</label>
+    <input type="text" id="name" /> <br />
+    <label>prenom:</label>
+    <input type="text"  id="lsname"/> <br />
+    <label>age</label>
+    <input type="text" onblur="handleForm(this)" id="age"/>
+    <div>
+      <textarea name="" id="textarea" cols="30" rows="5"></textarea>
+    </div>
+    <div>
+      <button onclick="valider()">Valider</button>
+      <button>Annuler</button>
+    </div>
+    <script src="../js/ex4.js"></script>
+  </body>
+</html>

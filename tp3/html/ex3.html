@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex3</title>
+  </head>
+  <body>
+    <p>Choisissez la couleur de l'arriére plan</p>
+    <input type="radio" value="red" name="rd" onclick="changeColor(this)" />
+    <label>Rouge</label>
+    <br />
+
+    <input type="radio" value="green" name="rd" onclick="changeColor(this)" />
+    <label>Vert</label>
+    <br />
+    <input type="radio" value="pink" name="rd" onclick="changeColor(this)" />
+    <label>Rose</label>
+    <p>Choisissez la couleur du texte</p>
+    <select>
+      <option value="yellow">Jaune</option>
+      <option value="blue">bleue</option>
+      <option value="white">Blanc</option>
+    </select>
+    <div style="bottom: 100px;position: fixed;" id="txt"></div>
+    <script src="../js/ex3.js"></script>
+  </body>
+</html>
